@@ -1,0 +1,80 @@
+.home_avatar {
+    height: 600px;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.home_background {
+    background-image: url("/assets/images/home-background.jpg");
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 600px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.home {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 600px;
+    width: 100%;
+}
+
+.Slanting_page {
+    height: 600px;
+    width: 35%;
+    margin-left: 45%;
+    align-content: center;
+    // position: centre;
+    clip-path: polygon(0 125%, 175px 0, 100% 0px,50px 350% );
+    // clip-path: polygon(0 0, 500px 0, 100% 0px,0 100% );
+    background-image: url("/assets/images/home-background1.png");
+}
+
+.welcome {
+    // text-align: center;
+    font-family: poppins;
+    width: 30%;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.interests {
+    float: right;
+    color: white;
+    margin-top: 23%;
+    padding-right: 5%;
+}
+
+.new_trends {
+    margin-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.recent_post_cards {
+    height: 60%;
+}
+
+.recent_post_pic {
+    height: 60%;
+    width: 100%;
+}
+
+.recent_post_content {
+    font-family: poppins;
+    font-size: 16px;
+}
+
+.card_content {
+    color: white;
+    font-weight: 900;
+    // color: #000;
+    // padding-left: 10%;
+    // padding-right: 10%;
+    margin: 1%;
+}

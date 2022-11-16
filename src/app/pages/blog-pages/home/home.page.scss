@@ -1,0 +1,111 @@
+.title {
+    float: left;
+}
+.home_avatar {
+    height: 600px;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.home_background {
+    background-image: url("/assets/images/home-background.jpg");
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 600px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.home {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 600px;
+    width: 100%;
+}
+
+.Slanting_page {
+    height: 600px;
+    width: 32%;
+    margin-left: 50%;
+    clip-path: polygon(0 125%, 175px 0, 100% 0px,50px 350% );
+    // clip-path: polygon(0 0, 500px 0, 100% 0px,0 100% );
+    background-image: url("/assets/images/home-background1.png");
+}
+
+.welcome {
+    // text-align: center;
+    font-family: poppins;
+    width: 30%;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.interests {
+    float: right;
+    color: white;
+    margin-top: 23%;
+    padding-right: 5%;
+}
+.page_label {
+    font-family: poppins;
+    font-size: 20px
+    // font-weight 900;
+}
+.new_trends {
+    margin-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.cards {
+    width: 60%;
+    margin-left: 20%;
+}
+.card_background {
+    background-image: url("/assets/images/home-background.jpg");
+    opacity: 85%;
+    // background-color: rgba(0, 0, 0, 0.6);
+    // height: auto;
+    // width: auto;
+    background-position: center;
+}
+.card_content {
+    color: white;
+    font-weight: 900;
+    // color: #000;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 1%;
+}
+.footer {
+    background-color: black;
+    color: white;
+}
+.footer_logo {
+    padding-top: 3%;
+    padding-left: 5%;
+}
+.app_description {
+    padding-left: 5%;
+    padding-bottom: 3%;
+    width: 40%;
+    font-family: Poppins;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 37.94px;
+    line-height: 158%;
+    text-align: Left;
+    vertical-align: Top;
+    letter-spacing: 0.68px;
+}
+.copyright {
+    padding-left: 5%;
+    font-family: Poppins;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 37.94px;
+    line-height: 158%;
+}
